@@ -1,0 +1,44 @@
+[
+    {
+        "file": "cloudflare",
+        "keywords": [
+            "cloudflare",
+            "worker",
+            "workers",
+            "kv",
+            "r2",
+            "durable"
+        ]
+    },
+    {
+        "file": "telegram",
+        "keywords": [
+            "telegram",
+            "bot",
+            "webhook",
+            "inline"
+        ]
+    },
+    {
+        "file": "coding",
+        "keywords": [
+            "javascript",
+            "js",
+            "node",
+            "python",
+            "java",
+            "api",
+            "json"
+        ]
+    },
+    {
+        "file": "linux",
+        "keywords": [
+            "linux",
+            "ubuntu",
+            "debian",
+            "bash",
+            "terminal"
+        ]
+    }
+]

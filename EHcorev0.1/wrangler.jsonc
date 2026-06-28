@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+
+  "name": "hermes-worker",
+
+  "main": "src/index.js",
+
+  "compatibility_date": "2026-06-28",
+
+  "workers_dev": true,
+
+  "kv_namespaces": [
+    {
+      "binding": "MEMORY_DB",
+      "id": "YOUR_KV_NAMESPACE_ID"
+    }
+  ],
+
+  "vars": {
+    "MODEL": "mimo-2.5",
+    "API_BASE_URL": "https://router.bynara.id/v1",
+    "OWNER_ID": "6346107345",
+    "ADMIN_IDS": "111111111,222222222",
+    "TARGET_GROUP_ID": "-1001234567890",
+    "MAX_HISTORY": "20",
+    "MEMORY_TTL": "600"
+  },
+
+  "observability": {
+    "enabled": true
+  }
+}
